@@ -1,7 +1,7 @@
 public class MainProgram {
     public static void main(String[] args){
 
-        Employee e1 = new Employee( "0", "0", "0", 'f', 0, 0.0, "0" );
+        Employee e1 = new Employee( "Marco", "Neumann", "23.10.1971", 'm', 0, 88.5, "0" );
         System.out.println(e1.getName()+"-"+e1.getFirstname()+"-"+e1.getBirthdate()+"-"+e1.getGender()+"-"+e1.getAge()
                             +"-"+e1.getWeight()+"-"+e1.getDepartment()+"-"+e1.getSalary()+"-"+e1.getYearsOfService()+"-"+e1.getParticularity());
 
