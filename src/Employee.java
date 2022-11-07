@@ -11,7 +11,7 @@ public class Employee {
     private int yearsOfService;
     private String particularity;
 
-    public Employee(String n, String f, String b, char g, int a, double w, String d, String p) {
+    public Employee(String n, String f, String b, char g, int a, double w, String d, double s,String p) {
        name = n;
        firstname = f;
        birthdate =  b;
@@ -19,7 +19,7 @@ public class Employee {
        age = a;
        weight = w;
        department = d;
-       salary = 1500;
+       salary = s;
        yearsOfService = 0;
        particularity = p;
     }
